@@ -187,7 +187,7 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
@@ -647,6 +647,10 @@ footer {
     .hero-image, .about-image {
         margin-top: 40px;
     }
+
+    .hero-image {
+      max-height: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -686,6 +690,10 @@ footer {
     h2 {
         font-size: 2rem;
     }
+
+    .hero-image {
+      max-height: 250px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -704,5 +712,9 @@ footer {
     .btn {
         width: 100%;
         text-align: center;
+    }
+
+    .hero-image {
+      max-height: 200px;
     }
 }
